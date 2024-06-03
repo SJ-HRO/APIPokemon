@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.apipokemon">
+	<application android:label="APIPokemon"
+                 android:icon="@mipmap/appicon"
+                 android:roundIcon="@mipmap/appicon_round">
+		<activity android:name="crc643f46942d9dd1fff9.MainActivity"
+                  android:exported="true"
+                  android:theme="@style/Maui.SplashTheme">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>
